@@ -1,1 +1,7 @@
-console.log(rot13('SERR CVMMN!'));
+
+i.addEventListener('input',decoder);
+
+
+function decoder(){
+p.textContent = rot13(i.value.toUpperCase())
+}
