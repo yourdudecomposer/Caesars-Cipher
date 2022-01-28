@@ -1,16 +1,25 @@
 /* The Modal (background) */
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
 }
 
 /* Modal Content */
@@ -21,47 +30,51 @@
     border: 1px solid #888;
     width: 80%;
     max-width: 1000px;
-  }
-  
-  /* The Close Button */
-  .close {
+}
+
+/* The Close Button */
+.close {
     color: #aaaaaa;
     float: right;
-    font-size: 28px;
+
+    font-size: 67px;
     font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
+}
+
+.close:hover,
+.close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
-  }
+}
 
-  h1:hover{
-      cursor: help;
-  }
-.description{
+h1:hover {
+    cursor: help;
+}
+
+.description {
     font-size: 0.5em;
 }
 
-  .q{
+.q {
     width: 70px;
     border-radius: 50%;
     position: fixed;
     bottom: 60px;
     right: 30px;
-    
+
     box-shadow: 2px 2px 4px rgba(151, 151, 151, 0.3);
 
 
-  }
-  @media(min-width:950px){
-    h1:hover{
+}
+
+@media(min-width:950px) {
+    h1:hover {
         cursor: help;
     }
-      .q{
-          display: none;
-    
-      }
-  }
+
+    .q {
+        display: none;
+
+    }
+}
