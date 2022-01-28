@@ -9,7 +9,14 @@ var span = document.getElementsByClassName("close")[0];
 var q = document.getElementsByClassName("q")[0];
 
 // When the user clicks the button, open the modal 
-h1.onclick = showPop;
+
+h1.onclick = function () {
+    if (window.matchMedia('(min-width: 950px)').matches) {
+        showPop();
+    }
+};
+
+
 q.onclick = showPop;
 
 function showPop() {

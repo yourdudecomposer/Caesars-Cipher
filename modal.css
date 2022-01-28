@@ -46,7 +46,7 @@
 }
 
   .q{
-    width: 90px;
+    width: 70px;
     border-radius: 50%;
     position: fixed;
     bottom: 60px;
@@ -57,7 +57,9 @@
 
   }
   @media(min-width:950px){
-
+    h1:hover{
+        cursor: help;
+    }
       .q{
           display: none;
     
