@@ -48,9 +48,7 @@
     cursor: pointer;
 }
 
-h1:hover {
-    cursor: help;
-}
+
 
 .description {
     font-size: 0.5em;
@@ -70,11 +68,17 @@ h1:hover {
 
 @media(min-width:950px) {
     h1:hover {
-        cursor: help;
+        cursor: url('d.png');
     }
 
     .q {
         display: none;
 
     }
+}
+
+h1{
+    max-width: 500px;
+    margin: 0 auto;
+    cursor: url("cur.png"),help;
 }
